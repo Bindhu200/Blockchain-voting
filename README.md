@@ -33,9 +33,11 @@ Designed with security and usability in mind — similar to secure healthcare ma
 ## How to Run Locally
 1. Clone the repo:  
    `git clone https://github.com/bindhu200/Blockchain-voting.git`
-2. cd Blockchain-voting
+2. Change directory:
+   `cd Blockchain-voting`
 3. Run the app:  
    `python app.py`
 4. Open: http://127.0.0.1:5000
+
 
 
