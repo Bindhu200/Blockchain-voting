@@ -1,0 +1,212 @@
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f4f7fa; color: #333; }
+
+            
+.title-slide {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.title-slide img {
+    width: 180px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.title-slide h1 {
+    font-size: 3.5em;
+    margin: 20px 0;
+}
+
+.title-slide p {
+    font-size: 1.5em;
+    max-width: 900px;
+    line-height: 1.6;
+    margin-bottom: 80px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    padding: 18px 50px;
+    font-size: 1.4em;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn.login {
+    background: white;
+    color: #4e54c8;
+}
+
+.btn.register {
+    background: transparent;
+    color: white;
+    border: 3px solid white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+.primary { background: white; color: #667eea; }
+
+.secondary { background: transparent; border: 2px solid white; color: white; }
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+
+.logout { background: #e74c3c; color: white; padding: 10px 20px; border-radius: 30px; }
+
+.vote-section { background: #f8f9ff; padding: 30px; border-radius: 10px; margin-bottom: 40px; text-align: center; }
+
+select, button { padding: 12px; font-size: 1.1em; border-radius: 8px; }
+
+button.primary { background: #667eea; color: white; border: none; cursor: pointer; }
+
+.voted-msg { font-size: 1.5em; color: #27ae60; text-align: center; }
+
+.results { text-align: center; font-size: 1.3em; }
+/* Auth Pages - Professional Look */
+.auth-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #333;
+}
+
+.auth-card img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.auth-card h2 {
+    margin: 10px 0 10px;
+    font-size: 2em;
+    color: #333;
+}
+
+.auth-card p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+}
+
+.btn.primary {
+    width: 100%;
+    padding: 15px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn.primary:hover {
+    background: #5a6fd8;
+}
+
+.footer-text {
+    margin-top: 25px;
+    color: #666;
+}
+
+.footer-text a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+.back-home {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.back-home a {
+    color: #999;
+    text-decoration: none;
+}
+
+.back-home a:hover {
+    color: #667eea;
+}
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.auth-buttons .btn {
+    padding: 15px 40px;
+    font-size: 1.3em;
+    border-radius: 50px;
+}

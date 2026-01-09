@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome, {{ username }}!</h1>
+            <a href="/logout" class="btn logout">Logout</a>
+        </header>
+
+        {% if not voted %}
+            <div class="vote-section">
+                <h2>Cast Your Vote</h2>
+                <form method="post" action="/vote">
+                    <select name="candidate" required>
+                        <option value="">-- Choose Candidate --</option>
+                        <option value="Candidate A">Candidate A</option>
+                        <option value="Candidate B">Candidate B</option>
+                        <option value="Candidate C">Candidate C</option>
+                        <option value="Candidate D">Candidate D</option>
+                    </select>
+                    <button type="submit" class="btn primary">Submit Vote</button>
+                </form>
+            </div>
+        {% else %}
+            <p class="voted-msg">✓ You have already voted. Thank you!</p>
+        {% endif %}
+
+        <h2>Live Results</h2>
+        <div class="results">
+            {% if counts %}
+                <ul>
+                {% for candidate, votes in counts.items() %}
+                    <li><strong>{{ candidate }}</strong>: {{ votes }} votes</li>
+                {% endfor %}
+                </ul>
+                <p><strong>Total Votes:</strong> {{ counts.values()|sum }}</p>
+            {% else %}
+                <p>No votes cast yet.</p>
+            {% endif %}
+            <p><strong>Blockchain Status:</strong> {% if is_valid %}Secure & Valid{% else %}Tampered{% endif %}</p>
+        </div>
+    </div>
+</body>
+</html>

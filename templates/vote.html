@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Cast Vote</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cast Your Vote</h1>
+        <p>Choose a candidate and submit (one vote per login).</p>
+        <form method="post">
+            <select name="candidate" required>
+                <option value="">-- Select Candidate --</option>
+                <option value="Candidate A">Candidate A</option>
+                <option value="Candidate B">Candidate B</option>
+                <option value="Candidate C">Candidate C</option>
+                <option value="Candidate D">Candidate D</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Vote">
+        </form>
+        <a href="/">Back to Results</a>
+    </div>
+</body>
+</html>
