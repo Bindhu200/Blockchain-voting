@@ -37,3 +37,7 @@ Designed with security and usability in mind — similar to secure healthcare ma
 git clone https://github.com/bindhu200/Blockchain-voting.git
 
 cd Blockchain-voting
+
+python app.py
+
+Running on http://127.0.0.1:5000
