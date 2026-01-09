@@ -30,14 +30,12 @@ Designed with security and usability in mind — similar to secure healthcare ma
 ### Dashboard (After Login + Voting)
 ![Dashboard](screenshots/dashboard.png)
 
-## 🏃‍♂️ How to Run Locally
+## How to Run Locally
+1. Clone the repo:  
+   `git clone https://github.com/bindhu200/Blockchain-voting.git`
+2. cd Blockchain-voting
+3. Run the app:  
+   `python app.py`
+4. Open: http://127.0.0.1:5000
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/bindhu200/Blockchain-voting.git
 
-cd Blockchain-voting
-
-python app.py
-
-Running on http://127.0.0.1:5000
