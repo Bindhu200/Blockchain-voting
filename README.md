@@ -4,9 +4,6 @@
 A secure online voting platform utilizing **simulated blockchain technology** for complete transparency and tamper-proof records.  
 Designed with security and usability in mind — similar to secure healthcare management systems.
 
-![Banner](https://via.placeholder.com/1200x300/4e54c8/FFFFFF?text=Secure+Blockchain+Voting+System)  
-*(Replace with your own banner/screenshot later)*
-
 ## ✨ Features
 - User registration & secure login (password hashing + JWT authentication)
 - One vote per user (prevents double voting)
@@ -33,16 +30,10 @@ Designed with security and usability in mind — similar to secure healthcare ma
 ### Dashboard (After Login + Voting)
 ![Dashboard](screenshots/dashboard.png)
 
-*(Upload your actual screenshots to a `screenshots/` folder in the repository)*
-
-## 🚀 Live Demo
-🌐 **Deployed Application**: [https://your-app-name.onrender.com](https://your-app-name.onrender.com)  
-*(Replace with your actual Render/PythonAnywhere URL after deployment)*  
-Note: First load may take 30–60 seconds if the free tier is sleeping.
-
 ## 🏃‍♂️ How to Run Locally
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/bindhu200/Blockchain-voting.git
+
 cd Blockchain-voting
